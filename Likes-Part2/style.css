@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: lighter;
+}
+
+/* utility classes */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* body classes */
+
+body {
+  background-color: rgb(201, 215, 226);
+}
+
+nav {
+  max-width: 800px;
+  width: 75%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: darkblue;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.header_title {
+  text-align: center;
+  margin: 10px;
+  font-size: 2.5em;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 75%;
+  min-height: 600px;
+  /* background-color: darkgreen; */
+  /* border: 4px dashed darkgreen; */
+  /* display: flex; */
+}
+
+.main-left {
+  /* border: 4px solid orange; */
+  min-height: 600px;
+  width: 240px;
+}
+
+.profile-container {
+  background-color: rgb(241, 241, 241);
+  border: 4px solid darkblue;
+  min-height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+img {
+  display: block;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 20px 0 30px 0;
+}
+
+.profile-container a {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.profile-container h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.main-right {
+  /* border: 4px solid orange; */
+  min-height: 600px;
+  width: 600px;
+  /* padding: 0 30px; */
+}
+
+.friends-card {
+  background-color: rgb(241, 241, 241);
+  border: 5px solid darkblue;
+  margin-bottom: 10px;
+  min-height: 150px;
+  /* width: 600px; */
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.like-container {
+  width: 200px;
+}
+
+#like-button {
+  width: 70px;
+  height: 35px;
+  background-color: #977822; /* hover color */
+  background-color: #f5cc5c; /* hover color */
+  background-color: #e9b320;
+  border: 0.25em solid #000;
+  box-shadow: 3px 3px 0px 0px #000;
+}
+
+.like-text {
+  font-size: 1.25em;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+.header h1 {
+  padding-top: 20px;
+}
+
+a {
+  color: rgb(33, 81, 170);
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.box-shadow-wide {
+  box-shadow: 3px 3px 5px 1px #444 !important;
+}

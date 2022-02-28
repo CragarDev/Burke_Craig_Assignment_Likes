@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Craig Burke - Likes - Part1</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header flex">
+        <h1 class="mb20">Phillip J. Fry</h1>
+        <div class="like-container flex">
+          <h4 class="like-text"></h4>
+          <button
+            id="like-button"
+            onmouseenter="hoverColor(this)"
+            onmouseleave="defaultColor(this)"
+            onmousedown="clickColor(this), addOne(this)"
+            onmouseup="hoverColor(this)"
+          >
+            Like
+          </button>
+        </div>
+      </div>
+      <p class="info">
+        He is a slacker delivery boy from the 20th century and the protagonist
+        of the animated sitcom Futurama.
+      </p>
+    </div>
+    <script src="./likes_part1.js" async defer></script>
+  </body>
+  <footer></footer>
+</html>

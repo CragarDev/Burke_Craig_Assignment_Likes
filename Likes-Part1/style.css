@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: lighter;
+}
+
+/* utility classes */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* body classes */
+
+body {
+  background-color: rgb(65, 12, 17);
+}
+
+.main {
+  background-color: rgb(241, 241, 241);
+  border: 3px solid #b4b4b4;
+  margin: 50px 0 0 100px;
+  width: 70%;
+  min-height: 170px;
+  max-width: 500px;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+
+.like-container {
+  width: 200px;
+}
+
+#like-button {
+  width: 70px;
+  height: 35px;
+  background-color: #977822; /* hover color */
+  background-color: #f5cc5c; /* hover color */
+  background-color: #e9b320;
+  border: 0.25em solid #000;
+  box-shadow: 3px 3px 0px 0px #000;
+}
+
+.like-text {
+  font-size: 1.25em;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.header h1 {
+  padding-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.box-shadow-wide {
+  box-shadow: 3px 3px 5px 1px #444 !important;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Craig Burke - Likes - Part2</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>Futurama Network</nav>
+    <h1 class="header_title">Your Feed</h1>
+    <div class="main-container flex">
+      <div class="main-left">
+        <div class="profile-container">
+          <img src="./images/Turanga-Leela2.png" alt="" srcset="" />
+          <a href="">Add an avatar</a>
+          <h2>Turanga Leela</h2>
+        </div>
+      </div>
+      <div class="main-right">
+        <div class="friends-card">
+          <div class="header flex-center">
+            <h1 class="mb20">Bender Bending Rodriguez</h1>
+            <div class="like-container flex">
+              <h4 class="like-text t1">9 like(s)</h4>
+              <button
+                id="like-button"
+                onmouseenter="hoverColor(this)"
+                onmouseleave="defaultColor(this)"
+                onmousedown="clickColor(this), addLike1(document.querySelector('.t1'))"
+                onmouseup="hoverColor(this)"
+              >
+                Like
+              </button>
+            </div>
+          </div>
+          <p class="info">
+            HI just set this new discord bot, let me know what you all think.
+            <a href="">link</a>
+          </p>
+        </div>
+        <div class="friends-card">
+          <div class="header flex-center">
+            <h1 class="mb20">Phillip J. Fry</h1>
+            <div class="like-container flex">
+              <h4 class="like-text t2">12 like(s)</h4>
+              <button
+                id="like-button"
+                onmouseenter="hoverColor(this)"
+                onmouseleave="defaultColor(this)"
+                onmousedown="clickColor(this), addLike2(document.querySelector('.t2'))"
+                onmouseup="hoverColor(this)"
+              >
+                Like
+              </button>
+            </div>
+          </div>
+          <p class="info">
+            Just finished my
+            <span><a href="">next comic,</a> check it out.</span>.
+          </p>
+        </div>
+        <div class="friends-card">
+          <div class="header flex-center">
+            <h1 class="mb20">Matt Groening</h1>
+            <div class="like-container flex">
+              <h4 class="like-text t3">9 like(s)</h4>
+              <button
+                id="like-button"
+                onmouseenter="hoverColor(this)"
+                onmouseleave="defaultColor(this)"
+                onmousedown="clickColor(this), addLike3(document.querySelector('.t3'))"
+                onmouseup="hoverColor(this)"
+              >
+                Like
+              </button>
+            </div>
+          </div>
+          <p class="info">
+            I can't stop listening to the <a href="">new album.</a><br />Who
+            else is liking it?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./likes_part2.js" async defer></script>
+  </body>
+  <footer></footer>
+</html>
